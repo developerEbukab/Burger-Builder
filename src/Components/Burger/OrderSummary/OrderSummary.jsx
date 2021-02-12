@@ -1,6 +1,6 @@
 import { checkPropTypes } from 'prop-types';
 import React from 'react';
-import Aux from '../../../Hoc/Aux';
+import Aux from '../../../Hoc/Aux/Aux.js';
 import Button from '../../UI/Button/Button';
 
 const OrderSummary = ({ingredients, purchaseContinued, purchaseCancelled, price}) => {

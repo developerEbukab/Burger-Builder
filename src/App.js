@@ -1,12 +1,12 @@
 import './App.css';
-import Layout from './Components/Layout/Layout';
 import BurgerBuilder from './Containers/BurgerBuilder/BurgerBuilder';
+import Layout from './Hoc/Layout/Layout';
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <BurgerBuilder/>
+        <BurgerBuilder  />
       </Layout>
     </div>
   );
